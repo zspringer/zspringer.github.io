@@ -1,1 +1,109 @@
-null
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* for debuggin purposes - turn off when finished*/
+/* *{
+    outline: 1px solid red;
+}*/
+/*Colors*/
+/* Flex init */
+.flex {
+  display: flex;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#top {
+  background: url("https://static.pexels.com/photos/491671/pexels-photo-491671.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 90vh;
+  border-bottom: 10px;
+}
+
+.opening-line {
+  height: 100px;
+}
+
+.job-description {
+  height: 200px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.no-padding {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+li.active {
+  background-color: transparent;
+  color: navajowhite;
+}
+
+#zs {
+  max-width: 150px;
+  max-height: auto;
+  border-radius: 15%;
+}
+
+.portfolio {
+  /*background-color: $secondary-color;*/
+}
+
+#portfolio {
+  background: url("http://res.cloudinary.com/dmyvekzok/image/upload/v1500673114/20170506_094130_l7hl3j.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.portfolio-projects {
+  justify-content: center;
+  align-items: center;
+  /*background-color: $secondary-color;*/
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.btn {
+  display: inline-block;
+}
+
+#about-me {
+  background-color: #81828d;
+  height: 300px;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-color: inverse(#81828d);
+}
+
+#contact {
+  background-color: black;
+}
+
+/* Keeps the columns from bleeding out to the right */
+.row {
+  margin-right: 0px;
+}
