@@ -363,7 +363,7 @@ p {
   display: block;
   text-indent: 50px;
   margin: auto;
-  padding-left: inherit;
+  padding-left: 15px;
 }
 
 .julie {
