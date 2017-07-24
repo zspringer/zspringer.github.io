@@ -1,12 +1,11 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-/* for debuggin purposes - turn off when finished*/
-* {
-  outline: 1px solid red;
-  box-sizing: border-box;
-}
-
+/* for debuggin purposes - turn off when finished
+*{
+    outline: 1px solid red;
+    box-sizing: border-box;
+}*/
 /*Colors*/
 /* Flex init */
 .flex {
@@ -236,6 +235,12 @@
 
 img {
   vertical-align: middle;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  /*left: 50%*/
+  width: 50%;
+  height: 50%;
 }
 
 body {
@@ -268,6 +273,14 @@ body {
   background-color: transparent;
   border: none;
   /*font-family: 'Roboto', sans-serif;*/
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
 }
 
 li.active {
@@ -351,10 +364,6 @@ fieldset {
   margin-right: 0px;
 }
 
-.box {
-  padding-left: 200px;
-}
-
 .col-md-6 {
   width: 50%;
 }
@@ -362,8 +371,7 @@ fieldset {
 p {
   display: block;
   text-indent: 50px;
-  margin: auto;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .julie {
