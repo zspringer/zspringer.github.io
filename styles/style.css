@@ -375,3 +375,7 @@ p {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.social-media {
+  display: inline-block;
+}
